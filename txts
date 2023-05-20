@@ -1,0 +1,23 @@
+signal(): Belirli bir sinyali işlemek için kullanılır. Bir sinyal alındığında, belirtilen işlevin çağrılmasını sağlar. Sinyal türleri, örneğin SIGINT (Ctrl+C), SIGTERM (kapatma sinyali) gibi sistem tarafından tanımlanan sabitlerle belirtilir.
+
+sigemptyset(): Sinyal kümesini boşaltmak için kullanılır. Bir sinyal kümesi, işaretçi setiyle temsil edilir ve belirli sinyallerin durumunu takip eder.
+
+sigaddset(): Sinyal kümesine bir sinyal eklemek için kullanılır. Belirli bir sinyali, sinyal kümesinde "set" (1) durumuna getirir.
+
+sigaction(): Bir sinyal için eylemi tanımlamak veya değiştirmek için kullanılır. Bu işlev, bir sinyal yakalandığında çağrılacak işlevi belirtmenizi sağlar.
+
+kill(): Belirli bir işlemi veya işlem grubunu belirtilen bir sinyalle sonlandırmak için kullanılır. İşlem kimliğini (PID) ve sinyal türünü alır.
+
+getpid(): Geçerli işlem kimliğini (PID) döndürmek için kullanılır.
+
+malloc(): Dinamik bellek tahsisi için kullanılır. Belirli bir bellek bloğu boyutunu alır ve o boyutta bir bellek bloğu tahsis eder.
+
+free(): Önceden tahsis edilen dinamik belleği serbest bırakmak için kullanılır. Bellek bloğunun adresini alır ve belleği geri verir.
+
+pause(): İşlemi geçici olarak askıya almak için kullanılır. Bir sinyal alınıncaya kadar işlem uyku moduna geçer.
+
+sleep(): Belirli bir süre boyunca işlemi uyutmak için kullanılır. Saniye cinsinden bir süre alır.
+
+usleep(): Belirli bir süre boyunca işlemi mikrosaniye cinsinden uyutmak için kullanılır.
+
+exit(): İşlemi sonlandırmak için kullanılır. Programın normal bir şekilde sonlandığını veya belirli bir hata durumunu temsil eden bir çıkış kodu ile birlikte çağrılır
