@@ -8,10 +8,6 @@ sigaction(): Bir sinyal için eylemi tanımlamak veya değiştirmek için kullan
 
 kill(): Belirli bir işlemi veya işlem grubunu belirtilen bir sinyalle sonlandırmak için kullanılır. İşlem kimliğini (PID) ve sinyal türünü alır.
 
-getpid(): Geçerli işlem kimliğini (PID) döndürmek için kullanılır.
-
-malloc(): Dinamik bellek tahsisi için kullanılır. Belirli bir bellek bloğu boyutunu alır ve o boyutta bir bellek bloğu tahsis eder.
-
 free(): Önceden tahsis edilen dinamik belleği serbest bırakmak için kullanılır. Bellek bloğunun adresini alır ve belleği geri verir.
 
 pause(): İşlemi geçici olarak askıya almak için kullanılır. Bir sinyal alınıncaya kadar işlem uyku moduna geçer.
